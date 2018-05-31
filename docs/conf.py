@@ -8,7 +8,7 @@
 classname = "ADFS Proxy on BIG-IP"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_repo = "https://github.com/f5devcentral/f5-agility-labs-adfsproxy"
+# github_repo = "https://github.com/f5devcentral/f5-agility-labs-adfsproxy"
 
 # OPTIONAL: Google Analytics
 # googleanalytics_id = 'UA-85156643-4'
