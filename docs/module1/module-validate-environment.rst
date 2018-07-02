@@ -44,7 +44,7 @@ Verify ADFS and App are Functional
 
 3. Right click the “ADFS Demo App” shortcut and click "open in incognito window"
 
-VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test.
+VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test. This will ensure you do not have issues related to cache or cookies.
 
 |image1|
 
