@@ -70,14 +70,15 @@ b. What happened:
    v.   App validated the assertion and displayed the claims it received
         from ADFS
 
-1. If you do not see claims then the virtual environment may not have
+
+**If you do not see claims then the virtual environment may not have
    started correctly. It must be fixed before proceeding. You have two options:
    
    Option 1: You can restart services on the ADFS-1 server from your desktop with the shortcut on the desktop.
    
    |image6|
    
-   Option 2: You can restart the ADFS-1 server.
+   Option 2: You can restart the ADFS-1 server.**
 
 .. |image0| image:: media/image1.png
    :width: 2.82407in
