@@ -6,7 +6,7 @@ requests ADFS authentication are functioning without the BIG-IP in the
 traffic flow.
 
 Open an RDP session to the client machine
---------------------------------------------------------------------
+-----------------------------------------
 
 1. Open an RDP session to the client jumphost
 
