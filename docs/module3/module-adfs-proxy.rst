@@ -55,7 +55,7 @@ Deploy ADFS iApp for ADFS Proxy (with MS-ADFSPIP support)
 
    c. What is the password associated with that account?
 
-      i. **user**
+      i. **admin**
 
 Establishing trust with ADFS requires username in UPN or
 domain\\username format. This is true whether in the iApp or
