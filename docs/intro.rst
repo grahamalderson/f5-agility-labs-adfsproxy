@@ -42,8 +42,7 @@ components:
         - ``root``/``default``
       - Licensed with Best bundle, provisioned with LTM and APM. BIG-IP Version 13.1.
     * - Client
-      - - **Management** 10.1.1.8
-      	- **Internal** 10.1.20.8
+      - - **Internal** 10.1.20.8
       - ``user``/``user``
       - This is the client/jumphost used in the lab, it is domain joined. Windows Server 2016.
     * - DC
