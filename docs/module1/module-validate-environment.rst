@@ -24,14 +24,7 @@ Change Client to Point at ADFS-1 Direct (BIG-IP not in traffic flow)
 
 |image3|
 
-Open an RDP session to the client machine
------------------------------------------
-
-1. Open an RDP session to the client jumphost
-
-2. Login with username: user and password: user
-
-Verify ADFS and App are Functional
+Open the BIG-IP Management Interface
 ----------------------------------
 
 1. Open Chrome
