@@ -17,9 +17,11 @@ Change Client to Point at BIG-IP ADFS Proxy Virtual Server
 
 |image1|
 
-1. Close any open Chrome windows
+1. Close any open Chrome incognito windows
 
-2. Open a new Chrome window and test the App shortcut again.
+2. Open a new Chrome window if not already open
+
+3. Right click the App shortcut and open a new incognito window
 
    a. It should fail because you cannot access ADFS through the BIG-IP
       until you deploy the configuration.
@@ -106,11 +108,11 @@ certificate auth can be verified. It was pre-imported for you.
 Test the ADFS Proxy Forms Authentication Functionality
 ------------------------------------------------------
 
-1. Close any open Chrome windows
+1. Close any open Chrome incognito windows
 
-2. Open a new Chrome window
+2. Open a new Chrome window if not already open
 
-3. Click the “ADFS Demo App” shortcut
+3. Right click the App shortcut and open a new incognito window
 
 |image2|
 
@@ -162,11 +164,11 @@ b. What happened:
 Test the ADFS Proxy Certificate Authentication Functionality
 ------------------------------------------------------------
 
-1. Close any open Chrome windows
+1. Close any open Chrome incognito windows
 
-2. Open a new Chrome window
+2. Open a new Chrome window if not already open
 
-3. Click the “ADFS Demo App” shortcut
+3. Right click the App shortcut and open a new incognito window
 
 |image5|
 
