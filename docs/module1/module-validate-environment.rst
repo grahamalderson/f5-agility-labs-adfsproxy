@@ -24,19 +24,39 @@ Change Client to Point at ADFS-1 Direct (BIG-IP not in traffic flow)
 
 |image3|
 
+Open an RDP session to the client machine
+-----------------------------------------
+
+1. Open an RDP session to the client jumphost
+
+2. Login with username: user and password: user
+
 Verify ADFS and App are Functional
 ----------------------------------
 
-1. Close any open Chrome windows
+1. Open Chrome
 
-2. Open a new Chrome window
+2. Click the BIG-IP shortcut
 
-3. Click the “ADFS Demo App” shortcut
+|image0|
 
-|image4|
+3. Login with username: admin and password: admin
+
+Verify ADFS and App are Functional
+----------------------------------
+
+1. Close any open Chrome incognito windows
+
+2. Open Chrome if not already open
+
+3. Right click the “ADFS Demo App” shortcut and click "open in incognito window"
+
+|image1|
 
 4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
+   
+VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test.
 
 |image5|
 
