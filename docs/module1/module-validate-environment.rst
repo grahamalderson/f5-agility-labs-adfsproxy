@@ -44,7 +44,7 @@ Verify ADFS and App are Functional
 
 3. Right click the “ADFS Demo App” shortcut and click "open in incognito window"
 
-VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test. This will ensure you do not have issues related to cache or cookies.
+**VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test. This will ensure you do not have issues related to cache or cookies.**
 
 |image1|
 
@@ -71,8 +71,7 @@ b. What happened:
         from ADFS
 
 
-**If you do not see claims then the virtual environment may not have
-   started correctly. It must be fixed before proceeding. You have two options:**
+**If you do not see claims then the virtual environment may not have started correctly. It must be fixed before proceeding. You have two options:**
    
    Option 1: You can restart services on the ADFS-1 server from your desktop with the shortcut on the desktop.
    
@@ -84,8 +83,8 @@ b. What happened:
    :width: 2.82407in
    :height: 1.43919in
 .. |image1| image:: media/image2.png
-   :width: 1.73148in
-   :height: 2.19440in
+   :width: 3.46296in
+   :height: 4.3888in
 .. |image2| image:: media/image3.png
    :width: 0.98611in
    :height: 1.25000in
@@ -98,3 +97,6 @@ b. What happened:
 .. |image5| image:: media/image6.png
    :width: 4.49074in
    :height: 1.75408in
+.. |image6| image:: media/image7.png
+   :width: 1.73148in
+   :height: 2.19440in
