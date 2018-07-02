@@ -2,3 +2,4 @@ docs/_build/*
 media
 *.docx
 pdf/*
+docs/.DS_Store

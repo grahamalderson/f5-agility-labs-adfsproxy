@@ -45,19 +45,14 @@ Verify ADFS and App are Functional
 3. Right click the “ADFS Demo App” shortcut and click "open in incognito window"
 
 **VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test. This will ensure you do not have issues related to cache or cookies.**
-
 |image1|
-
 4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
 
-
 **If the request failed and you do not see claims then the ADFS-1 Windows server may not have started correctly or may not be finished starting. It must be fixed before proceeding. If the lab has just started, wait a few moments. If it is still not working, you have two options:**
-   
+
    Option 1: You can restart services on the ADFS servers from your client with the shortcut on the desktop. This is the fastest option.
-   
    |image6|
-   
    Option 2: You can restart the ADFS-1 and then ADFS-2 servers.
 
 **You should now see the following:**
