@@ -51,7 +51,7 @@ Deploy ADFS iApp for ADFS Proxy (with MS-ADFSPIP support)
    b. What is the account to be used for establishing proxy trust with
       ADFS?
 
-      i. **user@f5demo.com**
+      i. **admin@f5demo.com**
 
    c. What is the password associated with that account?
 
