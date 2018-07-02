@@ -71,7 +71,7 @@ b. What happened:
         from ADFS
 
 
-**If you do not see claims then the virtual environment may not have started correctly. It must be fixed before proceeding. You have two options:**
+**If you do not see claims then the ADFS-1 Windows server may not have started correctly or may not be finished starting. It must be fixed before proceeding. If the lab has just started, wait a few moments. If it is still not working, you have two options:**
    
    Option 1: You can restart services on the ADFS-1 server from your desktop with the shortcut on the desktop.
    
