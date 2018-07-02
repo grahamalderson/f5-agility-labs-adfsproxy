@@ -44,13 +44,13 @@ Verify ADFS and App are Functional
 
 3. Right click the “ADFS Demo App” shortcut and click "open in incognito window"
 
+VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test.
+
 |image1|
 
 4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
    
-VERY IMPORTANT: For all testing in this lab, close all incognito windows first, then open a new one for your test.
-
 |image5|
 
 a. Note that ADFS identified the user as inside the corporate network
