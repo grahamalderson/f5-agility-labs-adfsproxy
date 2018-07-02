@@ -51,12 +51,20 @@ Verify ADFS and App are Functional
 4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
    
+**If the request failed and you do not see claims then the ADFS-1 Windows server may not have started correctly or may not be finished starting. It must be fixed before proceeding. If the lab has just started, wait a few moments. If it is still not working, you have two options:**
+   
+   Option 1: You can restart services on the ADFS-1 server from your desktop with the shortcut on the desktop.
+   
+   |image6|
+   
+   Option 2: You can restart the ADFS-1 server.
+   
 |image5|
 
-a. Note that ADFS identified the user as inside the corporate network
+5. Note that ADFS identified the user as inside the corporate network
    because they did not go through an MS-ADFSPIP compliant proxy.
 
-b. What happened:
+6. What happened:
 
    i.   You made a request to App
 
@@ -70,14 +78,6 @@ b. What happened:
    v.   App validated the assertion and displayed the claims it received
         from ADFS
 
-
-**If you do not see claims then the ADFS-1 Windows server may not have started correctly or may not be finished starting. It must be fixed before proceeding. If the lab has just started, wait a few moments. If it is still not working, you have two options:**
-   
-   Option 1: You can restart services on the ADFS-1 server from your desktop with the shortcut on the desktop.
-   
-   |image6|
-   
-   Option 2: You can restart the ADFS-1 server.
 
 .. |image0| image:: media/image1.png
    :width: 2.82407in
