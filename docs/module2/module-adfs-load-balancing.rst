@@ -82,11 +82,11 @@ b. Which servers should be included in this pool?
 Test the ADFS Load Balancing Functionality
 ------------------------------------------
 
-1. Close any open Chrome windows
+1. Close any open Chrome incognito windows
 
-2. Open a new Chrome window
+2. Open a new Chrome window if not already open
 
-3. Click the “ADFS Demo App” shortcut
+3. Right click the “ADFS Demo App” shortcut and open in an incognito window
 
 |image3|
 
