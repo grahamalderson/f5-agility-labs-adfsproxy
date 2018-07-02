@@ -5,22 +5,12 @@ In this module you will validate that ADFS and the application that
 requests ADFS authentication are functioning without the BIG-IP in the
 traffic flow.
 
-1. Connect to the lab environment
+Open an RDP session to the client machine
+--------------------------------------------------------------------
 
-2. Open the BIG-IP configuration interface
+1. Open an RDP session to the client jumphost
 
-|image0|
-
-1. Login with username: admin password: admin
-
-2. Open an RDP session to the jumphost
-
-3. Login with username: user@f5demo.com and password: user
-
-   a. Note that entering the full username including @f5demo.com is
-      important.
-
-|image1|
+2. Login with username: user and password: user
 
 Change Client to Point at ADFS-1 Direct (BIG-IP not in traffic flow)
 --------------------------------------------------------------------
@@ -29,7 +19,7 @@ Change Client to Point at ADFS-1 Direct (BIG-IP not in traffic flow)
 
 |image2|
 
-a. You should receive a notification that the HOSTS file now points
+2. You should receive a notification that the HOSTS file now points
    adfs.vlab.f5demo.com directly at the ADFS-1 server.
 
 |image3|
@@ -45,7 +35,7 @@ Verify ADFS and App are Functional
 
 |image4|
 
-1. You should see a set of claims displayed in the claims app at
+4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
 
 |image5|
