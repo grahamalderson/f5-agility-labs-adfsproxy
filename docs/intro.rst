@@ -44,21 +44,21 @@ components:
     * - Client
       - - **Management** 10.1.1.8
       	- **Internal** 10.1.20.8
-      - ``user@f5demo.com``/``user``
+      - ``user``/``user``
       - This is the client/jumphost used in the lab, it is domain joined. Windows Server 2016.
     * - DC
       - - **Internal** 10.1.20.5
-      - ``user@f5demo.com``/``user``
+      - ``admin``/``admin``
       - This is the domain controller and certificate authority. Windows Server 2016.
     * - App
       - - **Internal** 10.1.20.10
-      - ``user@f5demo.com``/``user``
+      - ``admin``/``admin``
       - Runs IIS with a claims app that is federated to ADFS. Windows Server 2016.
     * - ADFS-1
       - - **Internal** 10.1.20.6
-      - ``user@f5demo.com``/``user``
+      - ``admin``/``admin``
       - Primary ADFS farm node. Windows Server 2016.
     * - ADFS-2
       - - **Internal** 10.1.20.7
-      - ``user@f5demo.com``/``user``
+      - ``admin``/``admin``
       - Secondary ADFS farm node. Windows Server 2016.
