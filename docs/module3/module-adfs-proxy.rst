@@ -116,6 +116,8 @@ Test the ADFS Proxy Forms Authentication Functionality
 
 |image2|
 
+**If you do not get the ADFS logon page noted below you may have cache problems. Double check that you have closed all other incognito windows before trying this, and you can clear cache and cookies by performing ctrl+shift+del and selecting "all time"**
+
 1. This time instead of automatically authenticating with Windows
    Integrated Authentication you are presented with a forms login page.
    This is because ADFS is configured to require Forms auth for external
