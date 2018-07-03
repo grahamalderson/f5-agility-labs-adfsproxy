@@ -116,7 +116,7 @@ Test the ADFS Proxy Forms Authentication Functionality
 
 |image2|
 
-**If you do not get the ADFS logon page noted below (either you get an error or no automatic logon happens) then wait 60-120 seconds for the ADFS servers to sync and try again. If you are still getting the error (or you got the automatic logon) you may have cache problems in your browser. Double check that you have closed all other incognito windows before trying this, and you can clear cache and cookies by performing ctrl+shift+del and selecting "all time".**
+**If you do not get the ADFS logon page noted below wait 60-120 seconds for the ADFS servers to sync and try again. If you are still getting the error you may have cache problems. Double check that you have closed all other incognito windows before trying this, and you can clear cache and cookies by performing ctrl+shift+del and selecting "all time".**
 
 1. This time instead of automatically authenticating with Windows
    Integrated Authentication you are presented with a forms login page.
