@@ -12,16 +12,16 @@ Change Client to Point at BIG-IP ADFS Proxy Virtual Server
 
 |image0|
 
-1. You should see that the HOSTS file now points ADFS at the load
+2. You should see that the HOSTS file now points ADFS at the load
    balancing virtual server (which is not yet created)
 
 |image1|
 
-1. Close any open Chrome incognito windows
+3. Close any open Chrome incognito windows
 
-2. Open a new Chrome window if not already open
+4. Open a new Chrome window if not already open
 
-3. Right click the App shortcut and open a new incognito window
+5. Right click the App shortcut and open a new incognito window
 
    a. It should fail because you cannot access ADFS through the BIG-IP
       until you deploy the configuration.
@@ -38,22 +38,22 @@ Deploy ADFS iApp for ADFS Proxy (with MS-ADFSPIP support)
 
 3. Click Create
 
-4. Name: **adfs-proxy**
+4. **Name**: **adfs-proxy**
 
-5. Template: **f5.microsoft\_adfs.v1.2.0rc7**
+5. **Template**: **f5.microsoft\_adfs.v1.2.0rc7**
 
-6. Access Policy Manager (BIG-IP APM)
+6. **Access Policy Manager (BIG-IP APM)**
 
-   a. Would you like to configure BIG-IP as an ADFS Proxy?
+   a. **Would you like to configure BIG-IP as an ADFS Proxy?**
 
       i. **Yes, configure BIG-IP as an ADFS Proxy**
 
-   b. What is the account to be used for establishing proxy trust with
-      ADFS?
+   b. **What is the account to be used for establishing proxy trust with
+      ADFS?**
 
       i. **admin@f5demo.com**
 
-   c. What is the password associated with that account?
+   c. **What is the password associated with that account?**
 
       i. **admin**
 
@@ -61,13 +61,13 @@ Establishing trust with ADFS requires username in UPN or
 domain\\username format. This is true whether in the iApp or
 establishing trust manually.
 
-1. SSL Encryption
+7. **SSL Encryption**
 
-   a. Which SSL certificate do you want to use?
+   a. **Which SSL certificate do you want to use?**
 
       i. **internal-vlab.f5demo.com.crt**
 
-   b. Which SSL private key do you want to use?
+   b. **Which SSL private key do you want to use?**
 
       i. **internal-vlab.f5demo.com.key**
 
@@ -75,20 +75,20 @@ Note that this time we are doing SSL Bridging. This is required for the
 ADFS Proxy. Client certificate authentication can still be performed
 because BIG-IP supports MS-ADFSPIP.
 
-1. High Availability
+8. High Availability
 
-   a. What IP address do you want to use for the virtual server?
+   a. **What IP address do you want to use for the virtual server?**
 
       i. **10.1.10.100**
 
 10.1.10.x is the external/DMZ network in this environment. Notice this
 is .10 not .20 this time.
 
-a. Which FQDN will clients use to access AD FS?
+a. **Which FQDN will clients use to access AD FS?**
 
    i. **adfs.vlab.f5demo.com**
 
-b. Which servers should be included in this pool?
+b. **Which servers should be included in this pool?**
 
    i.   **10.1.20.6**
 
@@ -96,14 +96,16 @@ b. Which servers should be included in this pool?
 
    iii. **10.1.20.7**
 
-c. What Trusted CA would you like to use to validate the client
-   certificate chain presented during certificate authentication?
+c. **What Trusted CA would you like to use to validate the client
+   certificate chain presented during certificate authentication?**
 
    i. **F5demo-DC-CA.crt**
 
 This is the AD Certificates Services CA certificate for this environment
 that was used to issue the client certificates so that the client
 certificate auth can be verified. It was pre-imported for you.
+
+9. Click Finished
 
 Test the ADFS Proxy Forms Authentication Functionality
 ------------------------------------------------------

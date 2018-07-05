@@ -35,6 +35,8 @@ Open the BIG-IP Management Interface
 
 3. Login with username: admin and password: admin
 
+4. Nothing needs to be done here now, you are only validating you can access the BIG-IP.
+
 Verify ADFS and App are Functional
 ----------------------------------
 

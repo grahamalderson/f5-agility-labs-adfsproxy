@@ -11,14 +11,16 @@ Change Client to Point at BIG-IP Load Balancing Virtual Server
 
 |image0|
 
-1. You should see that the HOSTS file now points ADFS at the load
+2. You should see that the HOSTS file now points ADFS at the load
    balancing virtual server (which is not yet created)
 
 |image1|
 
-1. Close any open Chrome windows
+3. Close any open Chrome incognito windows
 
-2. Open a new Chrome window and test the App shortcut again.
+4. Open a new Chrome window if not already open.
+
+5. Right click the App shortcut and open a new incognito window
 
    a. It should fail because you cannot access ADFS through the BIG-IP
       until you deploy the configuration.
@@ -37,11 +39,11 @@ Deploy ADFS iApp for ADFS Load Balancing
 
 4. Click Create
 
-5. Name: **adfs-lb**
+5. **Name**: **adfs-lb**
 
-6. Template: **f5.microsoft\_adfs.v1.2.0rc7**
+6. **Template**: **f5.microsoft\_adfs.v1.2.0rc7**
 
-7. SSL Encryption
+7. **SSL Encryption**
 
    a. How should the BIG-IP system handle SSL traffic?
 
@@ -55,19 +57,19 @@ required. You can use SSL Bridging if you will not point WAP servers at
 your deployment but following Microsoft’s guidelines and using SSL
 Pass-Through is recommended.
 
-1. High Availability
+8. **High Availability**
 
-   a. What IP address do you want to use for the virtual server?
+   a. **What IP address do you want to use for the virtual server?**
 
       i. **10.1.20.100**
 
 10.1.20.x is the internal network in this environment.
 
-a. Which FQDN will clients use to access AD FS?
+a. **Which FQDN will clients use to access AD FS?**
 
    i. **adfs.vlab.f5demo.com**
 
-b. Which servers should be included in this pool?
+b. **Which servers should be included in this pool?**
 
    i.   **10.1.20.6**
 
@@ -77,7 +79,7 @@ b. Which servers should be included in this pool?
 
 |image2|
 
-1. Click Finished
+9. Click Finished
 
 Test the ADFS Load Balancing Functionality
 ------------------------------------------
@@ -90,7 +92,7 @@ Test the ADFS Load Balancing Functionality
 
 |image3|
 
-1. You should see a set of claims displayed in the claims app at
+4. You should see a set of claims displayed in the claims app at
    app.vlab.f5demo.com
 
 |image4|

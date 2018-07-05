@@ -3,3 +3,4 @@ media
 *.docx
 pdf/*
 docs/.DS_Store
+.DS_Store
