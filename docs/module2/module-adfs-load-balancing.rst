@@ -45,7 +45,7 @@ Deploy ADFS iApp for ADFS Load Balancing
 
 7. **SSL Encryption**
 
-   a. How should the BIG-IP system handle SSL traffic?
+   a. **How should the BIG-IP system handle SSL traffic?**
 
       i. **Encrypted traffic is forwarded without decryption (SSL
          pass-through)**

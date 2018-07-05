@@ -75,13 +75,13 @@ Note that this time we are doing SSL Bridging. This is required for the
 ADFS Proxy. Client certificate authentication can still be performed
 because BIG-IP supports MS-ADFSPIP.
 
-8. High Availability
+8. **High Availability**
 
    a. **What IP address do you want to use for the virtual server?**
 
       i. **10.1.10.100**
 
-10.1.10.x is the external/DMZ network in this environment. Notice this
+      10.1.10.x is the external/DMZ network in this environment. Notice this
 is .10 not .20 this time.
 
 a. **Which FQDN will clients use to access AD FS?**
