@@ -20,7 +20,7 @@ Change Client to Point at BIG-IP Load Balancing Virtual Server
 
 4. Open a new Chrome window if not already open.
 
-5. Right click the App shortcut and open a new incognito window
+5. Right click the "ADFS Demo App shortcut" and open a new incognito window
 
    a. It should fail because you cannot access ADFS through the BIG-IP
       until you deploy the configuration.
@@ -38,6 +38,8 @@ Deploy ADFS iApp for ADFS Load Balancing
 3. Open iApps -> Application Services -> Applications
 
 4. Click Create
+
+Accept all default values except for those listed below.
 
 5. **Name**: **adfs-lb**
 
