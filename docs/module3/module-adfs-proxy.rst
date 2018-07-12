@@ -21,7 +21,7 @@ Change Client to Point at BIG-IP ADFS Proxy Virtual Server
 
 4. Open a new Chrome window if not already open
 
-5. Right click the App shortcut and open a new incognito window
+5. Right click the "ADFS Demo App" shortcut and open a new incognito window
 
    a. It should fail because you cannot access ADFS through the BIG-IP
       until you deploy the configuration.
@@ -37,6 +37,8 @@ Deploy ADFS iApp for ADFS Proxy (with MS-ADFSPIP support)
 2. Open iApps -> Application Services -> Applications
 
 3. Click Create
+
+Accept all default values except for those listed below.
 
 4. **Name**: **adfs-proxy**
 
@@ -114,7 +116,7 @@ Test the ADFS Proxy Forms Authentication Functionality
 
 2. Open a new Chrome window if not already open
 
-3. Right click the App shortcut and open a new incognito window
+3. Right click the "ADFS Demo App" shortcut and open a new incognito window
 
 |image2|
 
@@ -172,7 +174,7 @@ Test the ADFS Proxy Certificate Authentication Functionality
 
 2. Open a new Chrome window if not already open
 
-3. Right click the App shortcut and open a new incognito window
+3. Right click the "ADFS Demo App" shortcut and open a new incognito window
 
 |image5|
 
