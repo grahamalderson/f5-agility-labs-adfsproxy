@@ -58,7 +58,7 @@ Verify ADFS and App are Functional
    
    |image6|
    
-   Option 2: You can restart the ADFS-1 and then ADFS-2 servers.
+   Option 2: You can restart the ADFS-1 and then ADFS-2 servers. This is much slower.
 
 **You should now see the following:**
 
