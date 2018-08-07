@@ -81,7 +81,7 @@ Verify ADFS and App are Functional
    v.   App validated the assertion and displayed the claims it received
         from ADFS
 
-**You should repeat these steps to validate ADFS-2, using the desktop shortcut labeled “ADFS-2 Direct”. If it fails, use the desktop shortcut to restart ADFS services as noted above.**
+**You should close all browser windows in the client and repeat these steps to validate ADFS-2 using the desktop shortcut labeled “ADFS-2 Direct”. If it fails, use the desktop shortcut to restart ADFS services as noted above.**
 
 .. |image0| image:: media/image1.png
    :width: 2.82407in
